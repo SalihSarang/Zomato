@@ -106,15 +106,16 @@ nav {
   top: 85px;
 }
 .main-heding {
-  font-size: 100px;
+  font-size: 85px;
 }
 .sub-heding {
-  font-size: 45px;
+  font-size: 40px;
+  font-weight: 400;
 }
 .search-bar {
   background-color: white;
-  width: 912px;
-  height: 68px;
+  width: 800px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -176,9 +177,9 @@ nav {
   border-top-left-radius: 22px;
 }
 .online-order {
-  width: 700px;
-  display: flex;
-  padding: 65px 200px;
+ width: 700px;
+ display: flex;
+ padding: 65px 382px;
 }
 .detales h2 {
   margin-left: 25px;
@@ -195,12 +196,12 @@ nav {
   transition: 200ms;
 }
 .Popular-localities {
-  margin-left: 200px;
+  margin-left: 382px;
   font-size: 21px;
 }
 .localities {
   display: grid;
-  padding: 0px 203px;
+  padding: 0px 382px;
   grid-gap: 20px;
   grid-template-columns: auto auto auto;
   grid-column: 11px;
@@ -230,37 +231,40 @@ nav {
 .phone-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  margin-top: 25px;
 }
 .buttons {
   display: flex;
   gap: 97px;
+  color: grey;
 }
 .phone {
-  font-size: 23px;
+  font-size: 19px;
   display: flex;
   gap: 5px;
 }
 .radio-btn-ph {
-  width: 16px;
+  width: 14px;
 }
 .email {
-  font-size: 23px;
+  font-size: 19px;
   display: flex;
   gap: 5px;
 }
 .radio-btn-email {
-  width: 16px;
+  width: 14px;
 }
 .entering {
-  width: 400px;
-  height: 70px;
+  width: 375px;
+  height: 60px;
 }
 .main-hed {
-  font-size: 63px;
+  font-size: 50px;
 }
 .sub-hed {
-  margin-top: 26px;
+  margin-top: 16px;
+  font-size: 16px;
+  color: grey;
 }
 .label-and-btn {
   display: flex;
@@ -284,8 +288,8 @@ nav {
 }
 .share-app-btn {
   margin-top: 25px;
-  width: 200px;
-  height: 70px;
+  width: 180px;
+  height: 60px;
   background: border-box rgb(239, 79, 95);
   border-color: rgb(239, 79, 95);
   font-size: 25px;
@@ -303,11 +307,10 @@ nav {
 }
 .download-text {
   color: #b6b6b6;
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 10px;
 }
 .link-area {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   gap: 10px;
   flex-direction: column;
@@ -328,12 +331,15 @@ nav {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 20px;
-  padding-left: 210px;
-  padding-right: 210px;
+  padding-left: 314px;
+  padding-right: 334px;
 }
 .heading {
   padding-left: 323px;
   margin-bottom: 20px;
+}
+.footer-zomato{
+  font-size: 40px;
 }
 .comon {
   border: 1px solid grey;
@@ -346,7 +352,7 @@ nav {
   margin-left: 10px;
 }
 .first-part {
-  width: 80%;
+  width: 82%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -377,6 +383,8 @@ nav {
   text-align: center;
 }
 footer {
+  padding-left: 176px;
+  padding-right: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -398,7 +406,7 @@ footer {
 .social-icons{
     margin-top: 19px;
     display: flex;
-    gap: 16px;
+    gap: 9px;
 }
 .app-strore-img{
   margin-top: 30px;
@@ -414,7 +422,9 @@ footer {
   margin-bottom: 30px;
 }
 .copy{
-  color: grey;
-    font-size: 17px;
+  padding-left: 144px;
+    padding-right: 133px;
+    color: grey;
+    font-size: 15px;
     margin-bottom: 35px;
 }
